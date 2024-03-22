@@ -1,5 +1,8 @@
 require ( './helpers.js' );
-
+const currentUser = "Grace Hoper";
+const welcomeMessage = "Welcome to Flatbook, Grace Hoper!";
+const excitedWelcomeMessage = "WELCOME TO FLATBOOK, GRACE HOPER!";
+const shortGreeting = "Welcome, G!";
 describe('index.js', () => {
   describe('currentUser', () => {
     it('is defined', () => {
